@@ -1,34 +1,47 @@
-h1
-{
-    color:rgb(48, 32, 23);
-    font-size: 50px;
-    font-family: fantasy;
-
+@font-face {
+    font-family: IndieFlower;
+    src: url(Indie_Flower/IndieFlower-Regular.ttf);
 }
+
+@font-face {
+    font-family: ArchivoBlack;
+    src: url(ArchivoBlack-Regular.ttf);
+}
+
+h1 {
+    color: rgb(48, 32, 23);
+    font-size: 50px;
+    font-family: ArchivoBlack;
+}
+
 html {
     background:
-        fixed
-        center / cover
-        url('fondécran.avif')
-      ;
-  }
-  body
-  {
+        fixed center / cover url('fondécran.avif');
+}
+
+body {
     color: rgb(48, 32, 23);
-    font-family: fantasys;
+    font-size: 20px;
+    font-family: IndieFlower;
+    src: IndieFlower;
+}
+
+img {
+    border-radius: 20px;
+}
+
+video {
+    border-radius: 20px;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+    font-family: IndieFlower;
+
 
 }
 
-img
-{
-    border-radius: 20px;
-}
-video
-{
-    border-radius: 20px;
-}
-p
-{
-    font-family: fantasy;
-    color:black
+#chien {
+    box-shadow: 12px 12px 10px 10px rgba(48, 32, 2, 0.192);
 }
